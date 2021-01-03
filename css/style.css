@@ -1,0 +1,140 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.css_shapka{
+    position: fixed;
+    top: 0;
+    display: flex;
+    background: rgb(176, 190, 197);
+    width: 100%;
+    padding: 10px;
+}
+.css_block_avtorizacii{
+    margin-left: auto;
+}
+.css_block_avtorizacii a{
+    margin-left: 1em;
+}
+.css_podlojka{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(189, 189, 189, 1);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.css_podlojka form{
+    background: rgb(84, 110, 122);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+label{
+    margin: 20px 0;
+}
+label input{
+    padding: 5px;
+}
+label span{
+    margin-left: 1em;
+}
+.css_block_knopok{
+    margin-top: 30px;
+}
+.css_btn{
+    padding: 10px 15px;
+}
+.css_psevdo_btn {
+    display: inline-block;
+    background: rgb(169, 169, 169);
+    padding: 10px 15px;
+}
+.css_submit {
+    background: rgba(27, 94, 32, 1);
+    color: rgba(207, 216, 220, 1);
+}
+.css_obolochka_main{
+    margin-top: 38px;
+    background-color: rgb(255, 235, 205);
+    height: calc(100vh - 38px);
+    display: flex;
+}
+.css_index{
+    overflow: auto;
+    display: block;
+}
+.css_index li{
+    background: white;
+    margin: 20px 30px;
+    padding: 20px;
+}
+.css_leviy_block_meyna {
+    background: rgb(240, 248, 255);
+    width: 20%;
+    padding: 15px;
+    border-right: 2px solid rgb(0, 0, 0);
+}
+.css_leviy_block_meyna ol{
+    margin: 20px 0;
+}
+.css_leviy_block_meyna .css_psevdo_btn{
+    margin-bottom: 20px;
+}
+.css_leviy_block_meyna input{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.css_leviy_block_meyna h1{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 5px 0 10px;
+}
+.css_block_lb {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 30px 0;
+    padding-left: 10px;
+}
+.css_block_lb h2{
+    margin: 0 5px;
+    margin-top: -20px;
+    background: rgb(240, 248, 255);
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: min-content;
+}
+.css_block_lb label span{
+    margin: 0 0 5px;
+    display: inline-flex;
+}
+main{
+    width: 80%;
+}
+.css_konteyner_map{
+    width: 100%;
+    height: 100%;
+}
+.name-user{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.css_kntnr_buttons{
+    display: flex;
+    margin-top: 15px;
+}
+.css_kntnr_buttons button{
+    margin-left: auto;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
